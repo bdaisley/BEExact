@@ -15,6 +15,8 @@ If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title----
 
 ## Contact information
 
+All feedback welcomed. If you have any questions, please feel free to contact me. Sharing of information is also encouraged, especially for novel honey bee-associated species that have recently been discovered but not yet incorporated into the BEExact database. Teamwork makes the dreamwork.
+
 Email:          bdaisley@uwo.ca
 
 Twitter:        @bdaisley
