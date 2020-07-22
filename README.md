@@ -14,6 +14,7 @@ BEExact is a comprehensive, non-redudant, reference database that has been thoro
 If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title-----. Journal, Volume(Issue); Pages" 
 
 ## Contact information
+
  Email:          bdaisley@uwo.ca
  Twitter:        @bdaisley
 
