@@ -15,8 +15,9 @@ If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title----
 
 ## Contact information
 
- Email:          bdaisley@uwo.ca
- Twitter:        @bdaisley
+Email:          bdaisley@uwo.ca
+
+Twitter:        @bdaisley
 
 
 
