@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_logo_v1.png" width="700"></p>
+<p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_v1_logo.png" width="900"></p>
 
 # BEExact: a honey-bee specific reference database for high-resolution taxonomic inference of associated microbial communities
 
