@@ -14,7 +14,7 @@ Following the peer-review process, a list of data-driven recommendations based o
 ## Available references for download:
 
 1. <b>BEEx-FL-refs</b> (the complete database containing near full length references for all known honey bee-specific 16S rRNA gene sequences)
-2. <b>BEEx-V4-TS</b> (V4-specific  reference training set with primers trimmed) *** <i>Recommended for use with IDTAXA for best performance but performs well with Bayesian classifiers implemented in DADA2/QIIME2 pipelines as well </i> ***
+2. <b>BEEx-V4-TS</b> (V4-specific reference training set with primers trimmed, i.e. <i>E. coli</i> position 537-786bp) *** <i>Recommended for use with IDTAXA for best performance but performs well with Bayesian classifiers implemented in DADA2/QIIME2 pipelines as well </i> ***
 
 ## Reference details
 If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title-----. Journal, Volume(Issue); Pages" 
