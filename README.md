@@ -9,22 +9,20 @@ BEExact is a comprehensive, non-redudant, reference database that has been thoro
 In the pending publication, BEExact is benchmarked at classifying ~90% honey bee-derived V4 amplicon sequence variants (ASVs) at the species-level, which represents an approximate 6-fold improvement in comparison to the commonly used SILVA v138 database which is expected to classify ~14% of these habitat-specific ASVs. 
 
 
-Following the peer-review process, a list of data-driven recommendations based off our findings will be provided on this homepage as a guide to help standardize the analysis of honey bee-associaed microbial communities in future studies.
-
 ## Available  databases for download:
 
-<u>BEExact full length database</u>
-1. <b>BEEx-FL-refs</b> (the complete database containing near full length references for all known honey bee-specific 16S rRNA gene sequences)
+<b>BEExact full length database</b>
+1. <i>BEEx-FL-refs</i> (the complete database containing near full length references for all known honey bee-specific 16S rRNA gene sequences)
 
-<u>Ready to use pre-trained/formatted V4 region-specific classifiers</u>
+<b>Ready to use pre-trained/formatted V4 region-specific classifiers</b>
 
-2. <b>IDTAXA-BEEx-V4-TS</b> (V4 classifier for IDTAXA) <- recommended, lowest optimal error rates during benchmarking
-3. <b>DADA2-BEEx-V4-TS</b> (V4 classifier for DADA2)
-4. <b>QIIME2-BEEx-V4-TS</b> (V4 classifier for QIIME2)
+2. <i>IDTAXA-BEEx-V4-TS</i> (V4 classifier for IDTAXA) <- recommended, lowest optimal error rates during benchmarking
+3. <i>DADA2-BEEx-V4-TS</i> (V4 classifier for DADA2)
+4. <i>QIIME2-BEEx-V4-TS</i> (V4 classifier for QIIME2)
 
 
 ## Creating custom training sets
-Other variable region-specific training sets can be generated using the full length BEExact database (BEEx-FL-refs)
+Other variable region-specific training sets can be generated using the full length BEExact database (<i>BEEx-FL-refs</i>)
 
 An example using QIIME2 tools for making a V3-V4 specific training set:
 
@@ -80,13 +78,15 @@ Step 5: Visualize files
       --o-visualization QIIME2_BxV3V4TS_ASVs_out.qzv
 ```
 
-For user-friendly conversion, drag and drop "QIIME2_BxV3V4TS_ASVs_out.qzv" to https://view.qiime2.org
+For user-friendly conversion, drag and drop "<i>QIIME2_BxV3V4TS_ASVs_out.qzv</i>" to https://view.qiime2.org
 
 
 ## Reference details
 
-Paper currently under revisions, when published refence details will be provided 
+<b>BEExact </b>
+Paper currently under peer review, when published the reference details will be provided here.
 If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title-----. Journal, Volume(Issue); Pages" 
+
 
 ## Contact information
 
@@ -95,9 +95,3 @@ All feedback welcomed. If you have any questions, please feel free to contact me
 Email:          bdaisley@uwo.ca
 
 Twitter:        @bdaisley
-
-
-
-
-
-
