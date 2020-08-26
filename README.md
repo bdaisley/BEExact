@@ -85,7 +85,8 @@ For user-friendly conversion, drag and drop "<i>QIIME2_BxV3V4TS_ASVs_out.qzv</i>
 
 <b>BEExact </b>
 Paper currently under peer review, when published the reference details will be provided here.
-If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title-----. Journal, Volume(Issue); Pages" 
+
+"Daisley B.A. and Reid G. BEExact: a taxonomic database tool and reference source for high-resolution inference of honey bee-associated microbial communities. (2020)
 
 
 ## Contact information
