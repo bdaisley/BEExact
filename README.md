@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_logo.jpg" width="700"></p>
 
-# BEExact: a high-resolution database for taxonomic inference of honey bee-associated microbial communities
+# BEExact: a taxonomic database tool and reference source for high-resolution inference of honey bee-associated microbial communities
 
 ## Description
 BEExact is a comprehensive, non-redudant, reference database that has been thoroughly curated for use with 16S rRNA gene-based sequencing of the honey bee (<i>Apis mellifera</i>) microbiota. Recent reports have pronounced the need to move beyond the long time standard of phylotype-level characterization of the honey bee microbiota (Ellegaard and Engel, 2019; Nature Communications). BEExact addresses this concern by allow species-level resolution of all core microbiota members as well as a number of other symbionts, pathobionts, and a wide variety of environmetnal taxa that, albeit being present at low levels, are commonly found transiently associated with honey bees. 
@@ -21,7 +21,7 @@ In the pending publication, BEExact is benchmarked at classifying ~90% honey bee
 4. <i>QIIME2-BEEx-V4-TS</i> (V4 classifier for QIIME2)
 
 
-## Creating custom training sets
+## Creating your own region-specific training set
 Other variable region-specific training sets can be generated using the full length BEExact database (<i>BEEx-FL-refs</i>)
 
 An example using QIIME2 tools for making a V3-V4 specific training set:
