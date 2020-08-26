@@ -11,12 +11,81 @@ In the pending publication, BEExact is benchmarked at classifying ~90% honey bee
 
 Following the peer-review process, a list of data-driven recommendations based off our findings will be provided on this homepage as a guide to help standardize the analysis of honey bee-associaed microbial communities in future studies.
 
-## Available references for download:
+## Available  databases for download:
 
+<u>BEExact full length database</u>
 1. <b>BEEx-FL-refs</b> (the complete database containing near full length references for all known honey bee-specific 16S rRNA gene sequences)
-2. <b>BEEx-V4-TS</b> (V4-specific reference training set with primers trimmed, i.e. <i>E. coli</i> position 537-786bp) *** <i>Recommended for use with IDTAXA for best performance but performs well with Bayesian classifiers implemented in DADA2/QIIME2 pipelines as well </i> ***
+
+<u>Ready to use pre-trained/formatted V4 region-specific classifiers</u>
+
+2. <b>IDTAXA-BEEx-V4-TS</b> (V4 classifier for IDTAXA) <- recommended, lowest optimal error rates during benchmarking
+3. <b>DADA2-BEEx-V4-TS</b> (V4 classifier for DADA2)
+4. <b>QIIME2-BEEx-V4-TS</b> (V4 classifier for QIIME2)
+
+
+## Creating custom training sets
+Other variable region-specific training sets can be generated using the full length BEExact database (BEEx-FL-refs)
+
+An example using QIIME2 tools for making a V3-V4 specific training set:
+
+Steps 1: Import sequence and taxonomy files as .qza 
+```
+  qiime tools import \
+    --type 'FeatureData[Sequence]' \
+    --input-path BEEx-FL-refs_sequences.fa \
+    --output-path BEEx-FL-refs_sequences.qza
+
+  qiime tools import \
+    --type 'FeatureData[Taxonomy]' \
+    --input-format HeaderlessTSVTaxonomyFormat \
+    --input-path BEEx-FL-refs_taxonomy.txt \
+    --output-path BEEx-FL-refs_taxonomy.qza
+```
+
+Steps 2: Trim to specific region of interest (V3-V4 in this case)
+
+```
+qiime feature-classifier extract-reads \
+    --i-sequences BEEx-FL-refs_sequences.qza \
+    --p-f-primer ACTCCTACGGGAGGCAGCAG \
+    --p-r-primer GGACTACHVGGGTWTCTAAT \
+    --p-trunc-len 120 \
+    --p-min-length 100 \
+    --p-max-length 400 \
+    --o-reads BEEx-V3V4-refs_sequences.qza
+```
+
+Steps 3: Train the classifier
+```
+  qiime feature-classifier fit-classifier-naive-bayes \
+    --i-reference-reads BEEx-V3V4-refs_sequences.qza \
+    --i-reference-taxonomy BEEx-FL-refs_taxonomy.qza \
+    --o-classifier QIIME2_BxV3V4TS.qza
+```
+
+Step 4: Classify reads with the q2-feature-classifier
+```
+    qiime feature-classifier classify-sklearn \
+      --i-classifier QIIME2_BxV3V4TS.qza \
+      --i-reads ASVs_query_sequences.qza \
+      --p-confidence 0.5 \
+      --o-classification QIIME2_BxV3V4TS_ASVs_out.qza
+```
+
+
+Step 5: Visualize files
+```
+    qiime metadata tabulate \
+      --m-input-file QIIME2_BxV3V4TS_ASVs_out.qza \
+      --o-visualization QIIME2_BxV3V4TS_ASVs_out.qzv
+```
+
+For user-friendly conversion, drag and drop "QIIME2_BxV3V4TS_ASVs_out.qzv" to https://view.qiime2.org
+
 
 ## Reference details
+
+Paper currently under revisions, when published refence details will be provided 
 If you use BEExact, please cite: "Daisley B.A. and Reid G. (2020) -----Title-----. Journal, Volume(Issue); Pages" 
 
 ## Contact information
