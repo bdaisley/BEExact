@@ -6,7 +6,7 @@
 BEExact is a comprehensive, non-redudant, reference database that has been thoroughly curated for use with 16S rRNA gene-based sequencing of the honey bee (<i>Apis mellifera</i>) microbiota. Recent reports have pronounced the need to move beyond the long time standard of phylotype-level characterization of the honey bee microbiota (Ellegaard and Engel, 2019; Nature Communications). BEExact addresses this concern by allow species-level resolution of all core microbiota members as well as a number of other symbionts, pathobionts, and a wide variety of environmetnal taxa that, albeit being present at low levels, are commonly found transiently associated with honey bees. 
 
 ## Benchmark
-In the pending publication, BEExact is benchmarked at classifying ~90% honey bee-derived V4 amplicon sequence variants (ASVs) at the species-level, which represents an approximate 6-fold improvement in comparison to the commonly used SILVA v138 database which is expected to classify ~14% of these habitat-specific ASVs. 
+In the pending publication, BEExact is benchmarked at classifying ~90% honey bee-derived V4 amplicon sequence variants (ASVs) at the species-level, which represents an approximate 6-fold improvement in comparison to the commonly used SILVA v138 database which classifies only ~14% of ASVs at the same level. 
 
 
 ## Available  databases for download:
