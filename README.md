@@ -9,10 +9,10 @@ BEExact is a comprehensive, non-redudant, reference database that has been thoro
 In the pending publication, BEExact is benchmarked at classifying ~90% honey bee-derived V4 amplicon sequence variants (ASVs) at the species-level, which represents an approximate 6-fold improvement in comparison to the commonly used SILVA v138 database which classifies only ~14% of ASVs at the same level. 
 
 
-## Available  databases for download:
+## Available  files for download:
 
 <b>BEExact full length database</b>
-1. <i>BEEx-FL-refs</i> (the complete database containing near full length references for all known honey bee-specific 16S rRNA gene sequences)
+1. <i>BEEx-FL-refs</i> (the complete database of all expected honey bee-specific 16S rRNA gene sequences)
 
 <b>Ready to use pre-trained/formatted V4 region-specific classifiers</b>
 
