@@ -16,9 +16,9 @@ In the pending publication, BEExact is benchmarked at classifying ~90% honey bee
 
 <b>Ready to use pre-trained/formatted V4 region-specific classifiers</b>
 
-2. <i>IDTAXA-BEEx-V4-TS</i> (V4 classifier for IDTAXA) <- recommended, lowest optimal error rates based on benchmarking
-3. <i>DADA2-BEEx-V4-TS</i> (V4 classifier for DADA2)
-4. <i>QIIME2-BEEx-V4-TS</i> (V4 classifier for QIIME2)
+2. <i>IDTAXA-BEEx-V4-TS</i> (V4 trainset for IDTAXA classifier) <- recommended, lowest optimal error rates based on benchmarking
+3. <i>DADA2-BEEx-V4-TS</i> (V4 trainset DADA2-implemented RDP classifier)
+4. <i>QIIME2-BEEx-V4-TS</i> (V4 trainset for QIIME2-implemented Naive Bayes Classifier)
 
 
 ## Creating your own region-specific training set
