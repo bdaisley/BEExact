@@ -9,7 +9,10 @@ The database will be updated frequently to incoporate annotations and reference 
 
 If there is enough interest, I will write up a wiki tutorial for honey bee microbiota analysis using exact ASVs as opposed to the traditional OTU-based analyses. As a quick note, there are several advantages to using ASVs specifically relating to their precision in characterizing microbial communities as well as their consistency for cross-study comparability. See the latest [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial.html) for more details on this.
 
+
+
 Also, an excellent article simplifying the workflow for performing valid statistical analyses on compositional datasets: 
+
 [Microbiome Datasets Are Compositional: And This Is Not Optional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
 
 
