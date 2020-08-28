@@ -50,7 +50,6 @@ qiime feature-classifier extract-reads \
     --i-sequences BEEx-FL-refs_sequences.qza \
     --p-f-primer ACTCCTACGGGAGGCAGCAG \
     --p-r-primer GGACTACHVGGGTWTCTAAT \
-    --p-trunc-len 120 \
     --p-min-length 100 \
     --p-max-length 400 \
     --o-reads BEEx-V3V4-refs_sequences.qza
