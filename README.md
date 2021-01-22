@@ -94,12 +94,12 @@ For user-friendly conversion, drag and drop "<i>QIIME2_BxV3V4TS_ASVs_out.qzv</i>
 <b>BEExact </b>
 Paper currently under peer review, when published the reference details will be provided here.
 
-"Daisley B.A. and Reid G. BEExact: a taxonomic database tool and reference source for high-resolution inference of honey bee-associated microbial communities. (2020)
+"Daisley B.A. and Reid G. BEExact: a metataxonomic database tool and reference source for high-resolution inference of bee-associated microbial communities. (2020)
 
 
 ## Contact information
 
-All feedback welcomed. If you have any questions, please feel free to contact me. Sharing of information is also encouraged, especially for novel honey bee-associated species that have recently been discovered but not yet incorporated into the BEExact database. Teamwork makes the dreamwork.
+All feedback welcomed. If you have any questions, please feel free to contact me. Sharing of information is also encouraged, especially for novel bee-associated species that have recently been discovered but not yet incorporated into the BEExact database. Teamwork makes the dreamwork.
 
 Email:          bdaisley@uwo.ca
 
