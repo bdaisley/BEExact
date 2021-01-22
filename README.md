@@ -1,27 +1,31 @@
 <p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_logo.jpg" width="700"></p>
 
-# BEExact: a taxonomic database tool and reference source for high-resolution inference of honey bee-associated microbial communities
+# BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities
+
+## Update - BEExact v1.0.2 is here! A lot of major improvements have been made to the database following the first set of revisions. Namely, it is no longer restricted for use to only <i>Apis mellifera</i>. It has now been expanded for use with all bee species (Hymenoptera:Apoidea:Anthophila). To do so, we not only added a long list of host-associated 16S rRNA gene sequences annotated at their lowest common rank (LCR) based on authorative type strains, but we also developed a novel approach for assigning phylogenetically consistent placeholder names to uncultivated microbial dark-matter. In effect, 618 placeholder labels were generated which should greatly enhances the ability to analyze associated microbial community structure and draw meaningful conclusions from routine 16S rRNA gene sequencing endeavours. 
+
+More to come soon!
+
 
 ## Description
-BEExact is a comprehensive, non-redudant, reference database that has been thoroughly curated for use with 16S rRNA gene-based sequencing of the honey bee (<i>Apis mellifera</i>) microbiota. Recent reports have pronounced the need to move beyond the long time standard of phylotype-level characterization of the honey bee microbiota (Ellegaard and Engel, 2019; Nature Communications). BEExact addresses this concern by enabling species-level resolution for all core microbiota members as well as a number of other symbionts, pathobionts, and a wide variety of environmetnal taxa that, albeit being present at low levels, are commonly found transiently associated with honey bees. 
 
-The database will be updated frequently to incoporate annotations and reference sequences for novel honey bee taxa. All suggestions for improvement are welcomed, see contact info below. If there is enough interest, I will write up a wiki tutorial for honey bee microbiota analysis using exact ASVs as opposed to the traditional OTU-based analyses. As a quick note, there are several advantages to using ASVs specifically relating to their precision in characterizing microbial communities as well as their consistency for cross-study comparability. See the latest [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial.html) for more details on this. Also, an excellent article simplifying the workflow for valid statistical analysis on compositional datasets: [Microbiome Datasets Are Compositional: And This Is Not Optional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
+BEExact is a comprehensive, non-redudant, reference database that has been thoroughly curated for use with 16S rRNA gene-based sequencing on bee-associated microbial communities. 
+
+The database will be updated frequently to incoporate annotations and reference sequences for novel bee host-associated taxa. All suggestions for improvement are welcomed, see contact info below. If there is enough interest, I will write up a wiki tutorial for microbiota analysis using exact ASVs as opposed to the traditional OTU-based methods. As a quick note, there are several advantages to using ASVs specifically relating to their precision in characterizing microbial communities as well as their consistency for cross-study compatibility. See the latest [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial.html) for more details on this. Also, an excellent article simplifying the workflow for valid statistical analysis on compositional datasets: [Microbiome Datasets Are Compositional: And This Is Not Optional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
 
 
 ## Benchmark
-In the pending publication, BEExact is benchmarked at classifying ~90% honey bee-derived V4 amplicon sequence variants (ASVs) at the species-level, which represents an approximate 6-fold improvement in comparison to the commonly used SILVA v138 database which classifies only ~14% of ASVs at the same level. 
-
+In the pending publication, BEExact is benchmarked at classifying ~80-90% of ASVs at the species-level across 32 indepedent studies encompassing 50 bee species, whereas the leading existing databases enable classification of no more than ~30% for more bee types. Microbial communities from eusocial bee species generally have better classification rates because their microbiota has been more intensively characterized compared to many solitary species.
 
 ## Available  files for download:
+
+The updated database for all variable regions will be avaiable shortly.
+
 
 <b>BEExact full length database</b>
 1. [BEEx-FL-refs](https://github.com/bdaisley/BEExact/blob/master/Datasets/BEEx-FL-refs.zip) (the complete database of all expected honey bee-specific 16S rRNA gene sequences)
 
-<b>Ready to use pre-trained/formatted V4 region-specific classifiers</b>
-
-2. [IDTAXA-BEEx-V4-TS](https://github.com/bdaisley/BEExact/blob/master/Datasets/IDTAXA_BxV4TS.RData) (V4 trainset for IDTAXA classifier) <- recommended, lowest optimal error rates based on benchmarking
-3. [DADA2-BEEx-V4-TS](https://github.com/bdaisley/BEExact/blob/master/Datasets/DADA2_BxV4TS.fa) (V4 trainset DADA2-implemented RDP classifier)
-4. [QIIME2-BEEx-V4-TS](https://github.com/bdaisley/BEExact/blob/master/Datasets/QIIME2_BxV4TS.qza) (V4 trainset for QIIME2-implemented Naive Bayes Classifier)
+<b>Ready to use pre-trained/formatted region-specific classifiers (coming shortly)</b>
 
 
 ## Creating your own region-specific training set
