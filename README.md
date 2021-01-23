@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_logo.jpg" width="700"></p>
 
-# BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities
+# BEExact: a metataxonomic database tool for bees
 
 ## Update 
 
