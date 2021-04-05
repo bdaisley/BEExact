@@ -106,7 +106,6 @@ For user-friendly conversion, drag and drop "<i>QIIME2_BxV3V4TS_ASVs_out.qzv</i>
 
 ## Reference details
 
-<b>BEExact </b>
 If you find the database helpful, please cite the following: 
 
 
