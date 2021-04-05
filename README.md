@@ -20,7 +20,7 @@ Also, an excellent article simplifying the workflow for valid statistical analys
 
 
 ## Benchmark
-In the pending publication, BEExact is benchmarked at classifying ~80-90% of ASVs at the species-level across 32 indepedent studies encompassing 50 bee species, whereas the leading existing databases enable classification of no more than ~30% for more bee types. Microbial communities from eusocial bee species generally have better classification rates because their microbiota has been more intensively characterized compared to many solitary species.
+Across 32 indepedent studies encompassing 50 bee species, BEExact is enabled classification of ~80-90% of ASVs at the species-level whereas the leading exisiting database classified no more than ~30% at the same level. We noted that microbial communities from eusocial bee species generally exhibited higher classification rates, likely owing to the fact that their microbiota has been more intensively characterized compared to many solitary bee species.
 
 ## Available  files for download:
 
