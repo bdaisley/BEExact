@@ -32,7 +32,9 @@ In the pending publication, BEExact is benchmarked at classifying ~80-90% of ASV
       IDTAXA    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-FL-TS.RData)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V3V4-TS.RData)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V4-TS.RData)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V4V5-TS.RData)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V5V6-TS.RData)<br />
       DADA2    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/dada2___BEEx-FL-TS.fa)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/dada2___BEEx-V3V4-TS.fa)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/dada2___BEEx-V4-TS.fa)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/dada2___BEEx-V4V5-TS.fa)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/dada2___BEEx-V5V6-TS.fa)<br />
       QIIME2    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/qiime2___BEEx-FL-TS.qza)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/qiime2___BEEx-V3V4-TS.qza)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/qiime2___BEEx-V4-TS.qza)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/qiime2___BEEx-V4V5-TS.qza)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/qiime2___BEEx-V5V6-TS.qza)<br />
-      SINTAX    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_FL-TS.fa)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V3V4-TS.fa)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V4-TS.fa)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V4V5-TS.fa)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V5V6-TS.fa)<br /><br />
+      SINTAX    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_FL-TS.fa)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V3V4-TS.fa)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V4-TS.fa)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V4V5-TS.fa)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/sintax___BEEx_V5V6-TS.fa)<br />
+
+<b>More pre-trained/formatted region-specific classifiers coming shortly</b><br />
 
 The above 16S variable region-specific files were trimmed using the following primer sets:<br />
   V3V4   Bakt_341F	CCTACGGGNGGCWGCAG --- Bakt_805R	GACTACHVGGGTATCTAATCC<br />
@@ -40,7 +42,7 @@ The above 16S variable region-specific files were trimmed using the following pr
   V4V5   515F(Parada)	GTGYCAGCMGCCGCGGTAA --- 926R(Quince)	CCGYCAATTYMTTTRAGTTT<br />
   V5V6   799F-mod3	CMGGATTAGATACCCKGG --- 1115R(Kembel)	AGGGTTGCGCTCGTTG<br />
        
-<b>More pre-trained/formatted region-specific classifiers coming shortly</b>
+
 
 
 ## Creating your own region-specific training set
