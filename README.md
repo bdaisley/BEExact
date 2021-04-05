@@ -1,11 +1,12 @@
 <p align="center"><img src="https://github.com/bdaisley/BEExact/blob/master/BEExact_logo.jpg" width="700"></p>
 
-# BEExact: a metataxonomic database tool for high-resolution analysis of bee-associated microbial communities
+# BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities
 
 ## Update (20-January-2021)
 
 BEExact v1.0.2 is here! A lot of major improvements have been made to the database following the first set of revisions. Namely, it is no longer restricted for use to only <i>Apis mellifera</i>. It has now been expanded for use with all bee species (Hymenoptera:Apoidea:Anthophila). To do so, we not only added a long list of host-associated 16S rRNA gene sequences annotated at their lowest common rank (LCR) based on authorative type strains, but we also developed a novel approach for assigning phylogenetically consistent placeholder names to uncultivated microbial dark-matter. In effect, 618 placeholder labels were generated which should greatly enhances the ability to analyze associated microbial community structure and draw meaningful conclusions from routine 16S rRNA gene sequencing endeavours. 
 
+For more details, see original article in mSystems here: https://doi.org/10.1128/mSystems.00082-21
 More to come soon!
 
 
@@ -27,9 +28,10 @@ The updated database for all variable regions will be avaiable shortly.
 
 
 <b>BEExact full length database</b>
-1. [BEEx-FL-refs](https://github.com/bdaisley/BEExact/blob/master/Datasets/BEEx-FL-refs.zip) (the complete database of all expected honey bee-specific 16S rRNA gene sequences)
+1. [BEEx-FL-refs](https://github.com/bdaisley/BEExact/tree/master/BEExact_v1.0.2_refs) (the complete full length 16S rRNA gene sequences + taxonomy)
+2. [BEEx-classifier-databases](https://github.com/bdaisley/BEExact/tree/master/BEExact_v1.0.2_classifier_databases) (pre-trained/formatted region-specific training sets for specific classifiers)
 
-<b>Ready to use pre-trained/formatted region-specific classifiers (coming shortly)</b>
+<b>More pre-trained/formatted region-specific classifiers coming shortly</b>
 
 
 ## Creating your own region-specific training set
@@ -94,9 +96,11 @@ For user-friendly conversion, drag and drop "<i>QIIME2_BxV3V4TS_ASVs_out.qzv</i>
 ## Reference details
 
 <b>BEExact </b>
-Paper currently under peer review, when published the reference details will be provided here.
+If you find the database helpful, please cite the following: 
 
-"Daisley B.A. and Reid G. BEExact: a metataxonomic database tool and reference source for high-resolution inference of bee-associated microbial communities. (2020)
+
+
+"Daisley B.A. and Reid G. (2020). BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities. mSystems 6(2):e00082-21
 
 
 ## Contact information
