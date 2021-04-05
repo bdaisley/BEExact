@@ -24,7 +24,7 @@ In the pending publication, BEExact is benchmarked at classifying ~80-90% of ASV
 
 ## Available  files for download:
 
-<b>BEExact file download links</b>
+<b>Download links for BEExact files</b>
 1. The complete full length 16S rRNA gene sequences + taxonomy<br />
     [BEEx-FL-refs](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_refs/BEEx-FL-bxid-refs.zip)
     
