@@ -26,7 +26,7 @@ In the pending publication, BEExact is benchmarked at classifying ~80-90% of ASV
 
 <b>BEExact file download links</b>
 1. The complete full length 16S rRNA gene sequences + taxonomy<br />
-    [BEEx-FL-refs](https://github.com/bdaisley/BEExact/tree/master/BEExact_v1.0.2_refs)
+    [BEEx-FL-refs](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_refs/BEEx-FL-bxid-refs.zip)
     
 2. Pre-trained/formatted region-specific training sets for specific classifiers<br />
       IDTAXA    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-FL-TS.RData)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V3V4-TS.RData)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V4-TS.RData)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V4V5-TS.RData)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v1.0.2_classifier_databases/IDTAXA___BEEx-V5V6-TS.RData)<br />
