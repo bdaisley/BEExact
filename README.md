@@ -111,7 +111,7 @@ If you find the database helpful, please cite the following:
 
 
 
-Daisley B.A. and G. Reid (2020). BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities. mSystems 6(2):e00082-21 (doi:10.1128/mSystems.00082-21)
+Daisley B.A. and G. Reid (2020). BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities. mSystems 6(2):e00082-21 (https://doi.org/10.1128/mSystems.00082-21)
 
 
 ## Contact information
