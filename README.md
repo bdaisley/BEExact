@@ -11,7 +11,12 @@ BEExact v2023.01.30 is here! There have been many formal descriptions of novel b
 
 Furthermore, additional pre-trained/pre-formatted classifiers are now available for [mothur](https://mothur.org), [LotuS2](https://lotus2.earlham.ac.uk), and [KRAKEN2](https://ccb.jhu.edu/software/kraken2) software.
 
-## Quick links for available download files:
+## Quick links for downloading files
+1. The unformatted reference database with full length 16S rRNA gene sequences + taxonomy:<br/>
+    - Sequences: &nbsp;[BEEx_FL-refs_sequences.fasta](https://github.com/bdaisley/BEExact/raw/master/full_database/BEEx_v2023.01.30___FL-refs_sequences.fasta) </br>
+    - Taxonomy: &nbsp;&nbsp;[BEEx_FL-refs_taxonomy.txt](https://github.com/bdaisley/BEExact/raw/master/full_database/BEEx_v2023.01.30___FL-refs_taxonomy.txt)
+    
+2. Pre-trained/formatted region-specific training sets for specific classifiers:<br/>
 <div align="left">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <sub>IDTAXA  </sub>             | <sub> DADA2 [RDP]</sub>          |  <sub> QIIME2 [NB] </sub>   | <sub> SINTAX </sub> | <sub> MOTHUR </sub>  | <sub> LOTUS2</sub>  | <sub> KRAKEN2</sub> 
