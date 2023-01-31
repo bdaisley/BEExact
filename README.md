@@ -7,7 +7,7 @@ Original article in mSystems here: https://msystems.asm.org/content/6/2/e00082-2
 
 ## Update (30-January-2023)
 
-BEExact v2023.01.30 is here! There have been many formal descriptions of novel bee-associated bacterial species come out since the last release, and excitingly, some of them have turned out to be exact matches to the predicted species previously designated with 'bxid' placeholder names. For example, Lacticaseibacillus sbxid5696 (old:BX004169) has been replaced by Lacticaseibacillus zhaodongensis (new:BX006585) and Frischella sbxid5676 (old:BX004348) has been replaced by Frischella japonica (new:BX006595). See *here* for the full list of changes.
+BEExact v2023.01.30 is here! There have been many formal descriptions of novel bee-associated bacterial species come out since the last release, and excitingly, some of them have turned out to be exact matches to the predicted species previously designated with 'bxid' placeholder names. For example, Lacticaseibacillus sbxid5696 (old:BX004169) has been replaced by Lacticaseibacillus zhaodongensis (new:BX006585) and Frischella sbxid5676 (old:BX004348) has been replaced by Frischella japonica (new:BX006595). See [here](https://github.com/bdaisley/BEExact/releases/tag/v2023.01.30) for the full list of changes.
 
 Furthermore, additional pre-trained/pre-formatted classifiers are now available for [mothur](https://mothur.org), [LotuS2](https://lotus2.earlham.ac.uk), and [KRAKEN2](https://ccb.jhu.edu/software/kraken2) software.
 
