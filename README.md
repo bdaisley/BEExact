@@ -2,18 +2,33 @@
 
 # BEExact: a metataxonomic database tool for high-resolution inference of bee-associated microbial communities
 
-## Update (04-April-2021)
+Original article in mSystems here: https://msystems.asm.org/content/6/2/e00082-21 <br />
 
-BEExact v2021.0.2 is here! A lot of major improvements have been made to the database following the first set of revisions. Namely, it is no longer restricted for use to only <i>Apis mellifera</i>. It has now been expanded for use with all bee species (Hymenoptera:Apoidea:Anthophila). To do so, we not only added a long list of host-associated 16S rRNA gene sequences annotated at their lowest common rank (LCR) based on authorative type strains, but we also developed a novel approach for assigning phylogenetically consistent placeholder names to uncultivated microbial dark-matter. In effect, 618 placeholder labels were generated which should greatly enhances the ability to analyze associated microbial community structure and draw meaningful conclusions from routine 16S rRNA gene sequencing endeavours. 
 
-For more details, see original article in mSystems here: https://msystems.asm.org/content/6/2/e00082-21 <br />
+## Update (30-January-2023)
 
+BEExact v2023.01.30 is here! There have been many formal descriptions of novel bee-associated bacterial species come out since the last release, and excitingly, some of them have turned out to be exact matches to the predicted species previously designated with 'bxid' placeholder names. For example, Lacticaseibacillus sbxid5696 (old:BX004169) has been replaced by Lacticaseibacillus zhaodongensis (new:BX006585) and Frischella sbxid5676 (old:BX004348) has been replaced by Frischella japonica (new:BX006595). See *here* for the full list of changes.
+
+Furthermore, additional pre-trained/pre-formatted classifiers are now available for [mothur](https://mothur.org), [LotuS2](https://lotus2.earlham.ac.uk), and [KRAKEN2](https://ccb.jhu.edu/software/kraken2) software.
+
+## Quick links for available download files:
+<div align="left">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <sub>IDTAXA  </sub>             | <sub> DADA2 [RDP]</sub>          |  <sub> QIIME2 [NB] </sub>   | <sub> SINTAX </sub> | <sub> MOTHUR </sub>  | <sub> LOTUS2</sub>  | <sub> KRAKEN2</sub> 
+:------------------------------------------|:--------------------:|:--------------------:|:-----------------------:|:----:|:----:|:----:|:----:
+Bakt_341F `5'-CCTACGGGNGGCWGCAG-3'`</br>Bakt_805R `5'-GACTACHVGGGTATCTAATCC-3'`</br>    | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/idtaxa/BEEx_v2023.01.30___idtaxa_v3v4.RData)   | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/dada2/BEEx_v2023.01.30___dada2_v3v4.fasta.gz)  | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/qiime2/BEEx_v2023.01.30___qiime2_naive-bayes-classifier_v3v4.qza) | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/sintax/BEEx_v2023.01.30___sintax_v3v4.udb.gz) | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/mothur/v3v4.tar.gz) | [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/lotus2/v3v4.tar.gz)  |  [V3V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/kraken2/BEEx_v2023.01.30___kraken2_v3v4.tar.gz)<tr></tr>
+515F(Parada) `5'-GTGYCAGCMGCCGCGGTAA-3'`</br>806R(Apprill) `5'-GGACTACNVGGGTWTCTAAT-3'` | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/idtaxa/BEEx_v2023.01.30___idtaxa_v4.RData)| [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/dada2/BEEx_v2023.01.30___dada2_v4.fasta.gz) | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/qiime2/BEEx_v2023.01.30___qiime2_naive-bayes-classifier_v4.qza)   | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/sintax/BEEx_v2023.01.30___sintax_v4.udb.gz)   | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/mothur/v4.tar.gz)   | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/lotus2/v4.tar.gz)    | [V4](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/kraken2/BEEx_v2023.01.30___kraken2_v4.tar.gz)<tr></tr> 
+515F(Parada) `5'-GTGYCAGCMGCCGCGGTAA-3'`</br>926R(Quince) `5'-CCGYCAATTYMTTTRAGTTT-3'`  | [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/idtaxa/BEEx_v2023.01.30___idtaxa_v4v5.RData)| [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/dada2/BEEx_v2023.01.30___dada2_v4v5.fasta.gz) | [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/qiime2/BEEx_v2023.01.30___qiime2_naive-bayes-classifier_v4v5.qza) | [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/sintax/BEEx_v2023.01.30___sintax_v4v5.udb.gz) | [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/mothur/v4v5.tar.gz) | [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/lotus2/v4v5.tar.gz)  |  [V4V5](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/kraken2/BEEx_v2023.01.30___kraken2_v4v5.tar.gz)<tr></tr>  
+799F-mod3 `5'-CMGGATTAGATACCCKGG-3'`</br>1115R(Kembel) `5'-AGGGTTGCGCTCGTTG-3'` | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/idtaxa/BEEx_v2023.01.30___idtaxa_v5v6.RData)   | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/dada2/BEEx_v2023.01.30___dada2_v5v6.fasta.gz)  | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/qiime2/BEEx_v2023.01.30___qiime2_naive-bayes-classifier_v5v6.qza) | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/sintax/BEEx_v2023.01.30___sintax_v5v6.udb.gz) | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/mothur/v5v6.tar.gz) | [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/lotus2/v5v6.tar.gz) |  [V5V6](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/kraken2/BEEx_v2023.01.30___kraken2_v5v6.tar.gz)<tr></tr>  
+Full-length 16S rRNA ref sequences  | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/idtaxa/BEEx_v2023.01.30___idtaxa_FL.RData) | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/dada2/BEEx_v2023.01.30___dada2_FL.fasta.gz) | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/qiime2/BEEx_v2023.01.30___qiime2_naive-bayes-classifier_FL.qza)   | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/sintax/BEEx_v2023.01.30___sintax_FL.udb.gz)   | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/mothur/full_length.tar.gz)   | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/lotus2/full_length.tar.gz)    | [FL](https://github.com/bdaisley/BEExact/raw/master/pre-formatted_classifier_downloads/kraken2/BEEx_v2023.01.30___kraken2_FL.tar.gz)
+
+</div>
 
 ## Description
 
 BEExact is a comprehensive, non-redudant, reference database that has been thoroughly curated for use with 16S rRNA gene-based sequencing on bee-associated microbial communities. 
 
-The database will be updated frequently to incoporate annotations and reference sequences for novel bee host-associated taxa. All suggestions for improvement are welcomed, see contact info below. If there is enough interest, I will write up a wiki tutorial for microbiota analysis using exact ASVs as opposed to the traditional OTU-based methods. As a quick note, there are several advantages to using ASVs specifically relating to their precision in characterizing microbial communities as well as their consistency for cross-study compatibility. See the latest [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial.html) for more details on this. 
+The database will be updated frequently to incoporate annotations and reference sequences for novel bee host-associated taxa. All suggestions for improvement are welcomed, see contact info below. A wiki tutorial is also currently in the works and will cover microbiota analysis using exact ASVs as opposed to the traditional OTU-based methods. As a quick note, there are several advantages to using ASVs specifically relating to their precision in characterizing microbial communities as well as their consistency for cross-study compatibility. See the latest [DADA2 pipeline](https://benjjneb.github.io/dada2/tutorial.html) for more details on this. 
 
 Also, an excellent article simplifying the workflow for valid statistical analysis on compositional datasets: [Microbiome Datasets Are Compositional: And This Is Not Optional](https://www.frontiersin.org/articles/10.3389/fmicb.2017.02224/full)
 
@@ -21,31 +36,9 @@ Also, an excellent article simplifying the workflow for valid statistical analys
 ## Benchmark
 Across 32 indepedent studies encompassing 50 bee species, BEExact is enabled classification of ~80-90% of ASVs at the species-level whereas the leading exisiting database classified no more than ~30% at the same level. We noted that microbial communities from eusocial bee species generally exhibited higher classification rates, likely owing to the fact that their microbiota has been more intensively characterized compared to many solitary bee species.
 
-## Available  files for download:
 
-<b>Download links for BEExact files</b>
-1. The complete full length 16S rRNA gene sequences + taxonomy<br />
-    [BEEx-FL-refs](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_refs/BEEx-FL-bxid-refs.zip)
-    
-2. Pre-trained/formatted region-specific training sets for specific classifiers<br />
-      IDTAXA    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/IDTAXA___BEEx-FL-TS.RData)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/IDTAXA___BEEx-V3V4-TS.RData)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/IDTAXA___BEEx-V4-TS.RData)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/IDTAXA___BEEx-V4V5-TS.RData)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/IDTAXA___BEEx-V5V6-TS.RData)<br />
-      DADA2    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/dada2___BEEx-FL-TS.fa.gz)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/dada2___BEEx-V3V4-TS.fa.gz)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/dada2___BEEx-V4-TS.fa.gz)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/dada2___BEEx-V4V5-TS.fa.gz)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/dada2___BEEx-V5V6-TS.fa.gz)<br />
-      QIIME2    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/qiime2___BEEx-FL-TS.qza)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/qiime2___BEEx-V3V4-TS.qza)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/qiime2___BEEx-V4-TS.qza)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/qiime2___BEEx-V4V5-TS.qza)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/qiime2___BEEx-V5V6-TS.qza)<br />
-      SINTAX    [Full-length](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/sintax___BEEx_FL-TS.fa.gz)   |   [V3V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/sintax___BEEx_V3V4-TS.fa.gz)   |   [V4](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/sintax___BEEx_V4-TS.fa.gz)   |   [V4V5](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/sintax___BEEx_V4V5-TS.fa.gz)   |   [V5V6](https://github.com/bdaisley/BEExact/raw/master/BEExact_v2021.0.2_classifier_databases/sintax___BEEx_V5V6-TS.fa.gz)<br />
-
-<b>More pre-trained/formatted region-specific classifiers coming shortly</b><br />
-
-The above 16S variable region-specific files were trimmed using the following primer sets:<br />
-  V3V4   Bakt_341F	CCTACGGGNGGCWGCAG --- Bakt_805R	GACTACHVGGGTATCTAATCC<br />
-  V4    515F(Parada)	GTGYCAGCMGCCGCGGTAA --- 806R(Apprill)	GGACTACNVGGGTWTCTAAT<br />
-  V4V5   515F(Parada)	GTGYCAGCMGCCGCGGTAA --- 926R(Quince)	CCGYCAATTYMTTTRAGTTT<br />
-  V5V6   799F-mod3	CMGGATTAGATACCCKGG --- 1115R(Kembel)	AGGGTTGCGCTCGTTG<br />
-       
-
-
-
-## Creating your own region-specific training set
-Other variable region-specific training sets can be generated using the full length BEExact database (<i>BEEx-FL-refs</i>)
+## Example of how to create your own region-specific training set
+Other variable region-specific training sets can be generated using the [BEExact full database sequences](https://github.com/bdaisley/BEExact/raw/master/full_database/full_database.tar.gz).
 
 An example using QIIME2 tools for making a V3-V4 specific training set:
 
